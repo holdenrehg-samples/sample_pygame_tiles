@@ -1,13 +1,10 @@
 import csv
 import io
-import pprint
 from typing import Dict
 from xml.etree import ElementTree
-from xml.etree.ElementTree import Element
 
 import pygame
-from pygrid_tiles import utils
-from pygrid_tiles.grid import Grid, Layer, Tile, TileMap, TileType
+from pygrid_tiles import utils, TileMap
 
 
 def from_tiled(map_file, base_dir: str):

@@ -2,19 +2,6 @@ from dataclasses import dataclass
 from typing import Tuple
 
 
-@dataclass
-class TileType:
-    id: int
-    width: int
-    height: int
-    image: int
-
-
-@dataclass
-class Tile:
-    type: int  # TileType.id
-
-
 class TileMap:
     def __init__(self, size: Tuple[int], tile_size: Tuple[int], layers={}, tile_set={}):
         self.layers = layers

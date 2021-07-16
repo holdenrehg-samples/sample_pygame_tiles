@@ -1,8 +1,3 @@
-import csv
-import io
-from typing import List, Tuple
-from xml.etree import ElementTree
-
 import pygame
 import pygame.display
 import pygame.event
@@ -11,7 +6,6 @@ import pygame.image
 import pygame.key
 from pygrid_tiles import imports
 from pygrid_tiles.camera import Camera
-from pygrid_tiles.grid import TileMap
 from pygrid_tiles.world import World
 
 ASSETS_PATH = "pygrid_tiles/demo"

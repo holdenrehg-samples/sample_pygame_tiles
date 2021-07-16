@@ -1,6 +1,6 @@
 import pygame
 from pygrid_tiles.camera import Camera
-from pygrid_tiles.grid import TileMap
+from pygrid_tiles import TileMap
 
 
 class World:

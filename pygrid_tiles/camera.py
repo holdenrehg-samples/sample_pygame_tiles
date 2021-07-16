@@ -1,7 +1,5 @@
 from typing import List, Tuple
 
-from pygrid_tiles.grid import Grid
-
 
 class Camera:
     """
